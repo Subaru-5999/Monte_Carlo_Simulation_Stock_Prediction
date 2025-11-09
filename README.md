@@ -35,3 +35,14 @@ Run the main script:
 ```bash
 python main.py
 ```
+
+
+## 🌐 Streamlit App
+
+Run the interactive web app:
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+Use the sidebar to set the ticker, historical start date, horizon, and number of paths, then click **Run Simulation**.

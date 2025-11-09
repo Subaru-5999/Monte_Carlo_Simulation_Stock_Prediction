@@ -1,7 +1,7 @@
-from modules.data_input import get_stock_data
-from modules.regression_model import estimate_parameters
-from modules.montecarlo_simulation import run_montecarlo, analyze_simulation
-from modules.visualization import plot_distribution
+from data_input import get_stock_data
+from regression_model import estimate_parameters
+from montecarlo_simulation import run_montecarlo, analyze_simulation
+from visualization import plot_distribution
 
 def main():
     ticker = input("Enter the stock ticker (e.g., TCS.NS): ").upper()

@@ -4,3 +4,5 @@ yfinance
 scikit-learn
 matplotlib
 pytz
+
+streamlit
